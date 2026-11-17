@@ -7,7 +7,7 @@ import { QuotesProvider } from "./context/QuotesContext";
 
 // The product title is configured through an environment variable, not code.
 const APP_TITLE =
-  import.meta.env.VITE_APP_TITLE ?? "Evergreen Insurance - Get a Quote";
+  import.meta.env.VITE_APP_TITLE ?? "Evergreen Insurance - Instant Quote";
 document.title = APP_TITLE;
 
 function App() {
